@@ -1,0 +1,266 @@
+{
+  "2026-01-06T20-23-49-06-00_An-R-Eval_c88efea916280b273f1280.json": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "run_id": "f8plLpolV5dW5pHdmPdrUb",
+      "created": "2026-01-06T20:23:49-06:00",
+      "task": "An-R-Eval",
+      "task_id": "c88efea916280b273f1280",
+      "task_version": 0,
+      "task_file": "",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 2,
+        "sample_ids": [1, 2],
+        "shuffled": false
+      },
+      "model": "ollama_solver (gemma3:4b)",
+      "model_args": {},
+      "config": {},
+      "revision": {
+        "type": "git",
+        "origin": "https://github.com/UKGovernmentBEIS/inspect_ai.git",
+        "commit": "9140d8a2"
+      },
+      "packages": {
+        "inspect_ai": "0.3.63"
+      },
+      "scorers": [
+        {
+          "name": "model_graded_qa(partial_credit = TRUE)",
+          "options": {},
+          "metrics": [
+            {
+              "name": "mean",
+              "options": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "ollama_solver (gemma3:4b)",
+          "params": {
+            "1": "self$get_samples()$input"
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 2,
+      "completed_samples": 2,
+      "scores": [
+        {
+          "name": "model_graded_qa(partial_credit = TRUE) (gemma3:4b)",
+          "scorer": "model_graded_qa(partial_credit = TRUE) (gemma3:4b)",
+          "params": {},
+          "metrics": {
+            "accuracy": {
+              "name": "accuracy",
+              "value": 75,
+              "params": {
+                "1": "numeric_scores"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "stats": {
+      "started_at": "2026-01-06T20:23:34-06:00",
+      "completed_at": "2026-01-06T20:23:49-06:00",
+      "model_usage": {
+        "gemma3:4b": {
+          "input_tokens": 148,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 82,
+          "total_tokens": 230
+        }
+      }
+    }
+  },
+  "2026-01-06T20-53-23-06-00_An-R-Eval_c88efea916280b273f1280.json": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "run_id": "DXSodCDVx50xN0b6amqiRH",
+      "created": "2026-01-06T20:53:23-06:00",
+      "task": "An-R-Eval",
+      "task_id": "c88efea916280b273f1280",
+      "task_version": 0,
+      "task_file": "",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 5,
+        "sample_ids": [1, 2, 3, 4, 5],
+        "shuffled": false
+      },
+      "model": "ollama_solver (gemma3:4b)",
+      "model_args": {},
+      "config": {},
+      "revision": {
+        "type": "git",
+        "origin": "https://github.com/UKGovernmentBEIS/inspect_ai.git",
+        "commit": "9140d8a2"
+      },
+      "packages": {
+        "inspect_ai": "0.3.63"
+      },
+      "scorers": [
+        {
+          "name": "model_graded_qa(partial_credit = TRUE)",
+          "options": {},
+          "metrics": [
+            {
+              "name": "mean",
+              "options": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "ollama_solver (gemma3:4b)",
+          "params": {
+            "1": "self$get_samples()$input"
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 5,
+      "completed_samples": 5,
+      "scores": [
+        {
+          "name": "model_graded_qa(partial_credit = TRUE) (gemma3:4b)",
+          "scorer": "model_graded_qa(partial_credit = TRUE) (gemma3:4b)",
+          "params": {},
+          "metrics": {
+            "accuracy": {
+              "name": "accuracy",
+              "value": 0,
+              "params": {
+                "1": "numeric_scores"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "stats": {
+      "started_at": "2026-01-06T20:44:01-06:00",
+      "completed_at": "2026-01-06T20:53:23-06:00",
+      "model_usage": {
+        "gemma3:4b": {
+          "input_tokens": 53870,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 23880,
+          "total_tokens": 77750
+        }
+      }
+    }
+  },
+  "2026-01-06T21-15-39-06-00_An-R-Eval_c88efea916280b273f1280.json": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "run_id": "iBtHnrTfY4SPabKyU4az8P",
+      "created": "2026-01-06T21:15:39-06:00",
+      "task": "An-R-Eval",
+      "task_id": "c88efea916280b273f1280",
+      "task_version": 0,
+      "task_file": "",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 5,
+        "sample_ids": [1, 2, 3, 4, 5],
+        "shuffled": false
+      },
+      "model": "ollama_solver (gemma3:4b)",
+      "model_args": {},
+      "config": {},
+      "revision": {
+        "type": "git",
+        "origin": "https://github.com/UKGovernmentBEIS/inspect_ai.git",
+        "commit": "9140d8a2"
+      },
+      "packages": {
+        "inspect_ai": "0.3.63"
+      },
+      "scorers": [
+        {
+          "name": "model_graded_qa(partial_credit = TRUE)",
+          "options": {},
+          "metrics": [
+            {
+              "name": "mean",
+              "options": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "ollama_solver (gemma3:4b)",
+          "params": {
+            "1": "self$get_samples()$input"
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 5,
+      "completed_samples": 5,
+      "scores": [
+        {
+          "name": "model_graded_qa(partial_credit = TRUE) (gemma3:4b)",
+          "scorer": "model_graded_qa(partial_credit = TRUE) (gemma3:4b)",
+          "params": {},
+          "metrics": {
+            "accuracy": {
+              "name": "accuracy",
+              "value": 0,
+              "params": {
+                "1": "numeric_scores"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "stats": {
+      "started_at": "2026-01-06T21:06:51-06:00",
+      "completed_at": "2026-01-06T21:15:39-06:00",
+      "model_usage": {
+        "gemma3:4b": {
+          "input_tokens": 51895,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 22755,
+          "total_tokens": 74650
+        }
+      }
+    }
+  }
+}
